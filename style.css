@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#Cabacario{
+    background-color: #303030;
+    padding-top: 175px;
+    padding-bottom: 125px;
+}
+
+.Texto-Cabacario{
+    margin-left: 100px;
+    margin-bottom: 25px;
+    color: #FFFF;
+    }
+
+    #Titulo-Cabecario{
+        font-size: 60px;
+    }
+
+    #Sub-Titulo-Cabecario{
+        font-size: 21.5px;
+    }
+
+    #menu-informacional{
+        display: grid;
+        grid-auto-flow: column;
+        background-color: #F9F9F9;
+        padding: 50px;
+    }
+
+    #Textos-Menu-Informacional{
+        margin-left: 150px;
+
+    }
+
+    .Titulo-Menu-Informacional{
+        font-size: 40px;
+        color: #000000;
+    }
+
+    .Texto-Menu-Informacional{
+        font-size: 20px;
+        color: #000000;
+    }
+
+    #Informacional{
+        display: grid;
+        grid-auto-flow: column;
+        margin-left: 77px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align:justify;
+    }
+
+    #Titulo-Informacional{
+        font-size: 40px;
+        margin-top: 175px;
+    }
+
+    #Texto-Informacional{
+        font-size: 24px;
+    }
+
+    #formulario{
+        background-color: #303030;
+        text-align: center;
+        padding: 50px;
+    }
+
+    #titulo-formulario{
+        color: #FFFFFF;
+        font-size: 32px;
+    }
+
+    input{
+        font-family: "Raleway";
+        font-size: 24px;
+        font-weight: bold;
+        Width: 508px;
+        Height: 72px;
+        background-color: #EAECE5;
+        margin: 15px;
+        border: 0px;
+        border-radius: 10px;
+        padding-left: 20px;
+    }
+
+    button{
+        Width: 286px;
+        Height: 74px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        background-color: #C07212;
+        font-family: "Raleway";
+        color:#FFFFFF;
+        font-size: 30px;
+        font-weight: bolder;
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color:#da8722;
+        color: white;
+        transform: translateY(-7px);
+        box-shadow: 0px 15px 20px #7f48055e;
+        transition-duration: 0.7s;
+    }
